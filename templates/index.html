@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <title>Disease Predictor Application</title>
+  <meta charset='utf-8'>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+   <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Disease Predictor</h1>
+    <p class='tagline'>- ACB Project</p>
+  </header>
+  <!-- input form for symptoms -->
+  <div class='form-wrapper'>
+    <form class='symptom-form' method="POST" action='/'>
+      <div class='symptom-wrapper'>
+        <input type='text' class='symptom' name='symptom' placeholder='Enter symptom' autofocus>
+        <button class='add-symptom'>Add symptom</button>
+    </div>
+    </form>
+  </div>
+  <div class='symptoms-entered'>
+    <!-- add symptoms here as entered by the user, dynamically -->
+
+  </div>
+  <script src='{{url_for('static', filename='script.js')}}'></script>
+</body>
+</html>
