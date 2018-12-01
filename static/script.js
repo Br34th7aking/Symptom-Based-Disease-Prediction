@@ -1,6 +1,8 @@
 const add_symptom_btn = document.querySelector('.add-symptom');
 let symptoms_entered = document.querySelector('.symptoms-entered');
 const symptom_form = document.querySelector('.symptom-form');
+const search_button = document.querySelector('.searchbtn');
+
 // when add symptom button is pressed, do the following
 add_symptom_btn.addEventListener("click", function(e) {
     e.preventDefault()

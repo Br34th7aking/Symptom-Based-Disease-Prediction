@@ -56,10 +56,14 @@ header p {
   padding-right: 8px;
 }
 .searchbtn {
+  display: inline-block;
   margin-top: 2%;
   font-size: 1.6rem;
 }
 
+a {
+  text-decoration: none;
+}
 .add-symptom:hover, .searchbtn:hover {
   cursor: pointer;
 
@@ -70,12 +74,15 @@ header p {
   height: 250px;
   width: 60%;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 15px;
-
+  padding-top: 0;
   border: 5px dotted rgb(63, 173, 168);
   border-radius: 5px;
 
+}
+.symptoms-entered h3 {
+  text-decoration: underline;
 }
 
 .added-symptom {
