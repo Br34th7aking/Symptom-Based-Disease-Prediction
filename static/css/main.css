@@ -9,19 +9,84 @@ header h1 {
   text-align: center;
   width: 70%;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 5%;
   padding: 10px 0;
   font-size: 3em;
-  border: 2px solid rgba(63, 173, 168, 0.5);
+  border-color: rgba(63, 173, 168, 0.5);
+  border-top: 8px double;
+  border-right: 5px dashed;
+  border-left: 5px dashed;
+  border-bottom: 8px double;
+
   border-radius: 5%;
 }
+
+header p {
+  text-align: right;
+  width: 90%;
+}
+
+
+.symptom-wrapper {
+  text-align: center;
+}
+.symptom, .add-symptom, .searchbtn {
+  font-size: 1.4rem;
+  padding: 5px;
+  margin-right: 10px;
+}
+.symptom {
+  outline: none;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgba(63, 173, 168, 0.2);
+}
+::placeholder {
+  color: rgba(63, 173, 168, 0.5);
+}
+
+.searchbtn-wrapper {
+  text-align: center;
+}
+.add-symptom, .searchbtn {
+  background: rgb(63, 173, 168);
+  color: white;
+  border-radius: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.searchbtn {
+  margin-top: 2%;
+  font-size: 1.6rem;
+}
+
+.add-symptom:hover, .searchbtn:hover {
+  cursor: pointer;
+
+}
+
+
 .symptoms-entered {
-  height: 100px;
-  background: #ccc;
+  height: 250px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 15px;
+
+  border: 5px dotted rgb(63, 173, 168);
+  border-radius: 5px;
+
 }
 
 .added-symptom {
+  background: rgba(63, 173, 168, 0.1);
+  padding; 5px;
+  font-size: 1.4rem;
+  color: rgb(63, 173, 168);
 
+}
+.added-symptom:hover {
+  cursor: pointer;
 }
 
 /* font families used
