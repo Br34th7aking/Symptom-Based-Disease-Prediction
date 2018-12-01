@@ -25,3 +25,6 @@ add_symptom_btn.addEventListener("click", function(e) {
 
     }
 });
+search_button.addEventListener('click', function() {
+  // symptom_form.submit();
+});
