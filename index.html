@@ -16,13 +16,14 @@
   <div class='form-wrapper'>
     <form class='symptom-form' method="POST" action='/'>
       <div class='symptom-wrapper'>
-        <input type='text' class='symptom' name='symptom' placeholder='Enter symptom' autofocus>
+        <input type='text' class='symptom' name='symptom' placeholder='Enter symptom' list='all-symptoms'autofocus>
+        <datalist id='all-symptoms'></datalist>
         <button class='add-symptom'>Add symptom</button>
     </div>
     </form>
   </div>
   <div class="searchbtn-wrapper">
-    <a class='searchbtn' href='results'>Search</a>
+    <a class='searchbtn' href='results.html'>Search</a>
   </div>
   <div class='symptoms-entered'>
     <h3>Selected  Symptoms</h3>
